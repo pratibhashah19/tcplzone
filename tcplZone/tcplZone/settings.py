@@ -71,25 +71,12 @@ DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.postgresql',
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        
-<<<<<<< Updated upstream
+
         'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': '12345678',
         'HOST': 'data.c3unf3q1zfkv.ap-south-1.rds.amazonaws.com',
-=======
-<<<<<<< HEAD
-        'NAME': 'tcplauth',
-        'USER': 'postgres',
-        'PASSWORD': '123',
-        'HOST': 'localhost',
-=======
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': '12345678',
-        'HOST': 'data.c3unf3q1zfkv.ap-south-1.rds.amazonaws.com',
->>>>>>> 4b6e6d18 (final zone)
->>>>>>> Stashed changes
+
         'PORT': '5432',
        
     }
